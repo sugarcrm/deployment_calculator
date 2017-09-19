@@ -12,11 +12,11 @@ var data = {
 	  },
 	  "partner": {
 		  "y": "danger",
-		  "n": "danger"
+		  "n": "success"
 	  },
 	  "onprem": {
 		  "y": "danger",
-		  "n": "danger"
+		  "n": "success"
 	  }
   },
   {
