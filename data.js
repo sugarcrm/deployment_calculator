@@ -54,7 +54,7 @@ var data = {
 	  },
 	  "onprem": {
 		  "y": "success",
-		  "n": "success"
+		  "n": "danger"
 	  }
   },
   {
