@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Sugar Deployment Options</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="data.js"></script>
+</head>
+<body>
+<div class="container">
+<h1>Sugar Deployment Calculator</h1>
+<p>
+Use this tool to help you decide which deployment option is right for you.
+</p>
+<form id="calcform">
+<table id="calctable" class="table table-bordered" width="800">
+<thhead>
+	<tr>
+		<th>Question</th>
+		<th>Answer</th>
+		<th>Sugar On-Demand</th>
+		<th>Sugar Premium Cloud</th>
+		<th>Partner Hosting</th>
+		<th>On Premise</th>
+	</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</form>
+<script type="text/javascript">
+function change(sel) {
+    $("#ondemand_" + sel.id).attr('class', 'alert-' + data.questions[sel.id].ondemand[sel.value]);
+    $("#premium_" + sel.id).attr('class', 'alert-' + data.questions[sel.id].premium[sel.value]);
+    $("#partner_" + sel.id).attr('class', 'alert-' + data.questions[sel.id].partner[sel.value]);
+    $("#onprem_" + sel.id).attr('class', 'alert-' + data.questions[sel.id].onprem[sel.value]);
+}
+jQuery.each(data.questions, function(i,qrow) {
+$("#calctable tr:last").after("<tr><td>" + qrow['question'] + "</td><td><select id=" + i + " onchange='change(this)'><option disabled selected value></option><option value='y'>yes</option><option value='n'>no</option></select></td><td id='ondemand_"+i+"'>&nbsp;</td><td id='premium_"+i+"'>&nbsp;</td><td id='partner_"+i+"'>&nbsp;</td><td id='onprem_"+i+"'>&nbsp;</td></tr>");
+});
+</script>
+</div>
+</body>
+</html>
