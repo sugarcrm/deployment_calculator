@@ -305,7 +305,7 @@ var data = {
     }
   },
   {
-    "question": "Do I require that Sugar is only be reachable from behind a VPN connection?",
+    "question": "Do I require that Sugar only be reachable from behind a VPN connection?",
     "ondemand": {
       "y": "danger",
       "n": "success"
@@ -324,7 +324,7 @@ var data = {
     }
   },
   {
-    "question": "Are all services that Sugar must connect to available via APIs accessible over the internet?",
+    "question": "Are all services to which Sugar must connect available via APIs accessible over the internet?",
     "ondemand": {
       "y": "success",
       "n": "danger"
