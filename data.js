@@ -326,16 +326,16 @@ var data = {
   {
     "question": "Are all services that Sugar must connect to available via APIs accessible over the internet?",
     "ondemand": {
-      "y": "danger",
-      "n": "success"
+      "y": "success",
+      "n": "danger"
     },
     "premium": {
-      "y": "danger",
-      "n": "success"
+      "y": "success",
+      "n": "danger"
     },
     "partner": {
-      "y": "warning",
-      "n": "success"
+      "y": "success",
+      "n": "warning"
     },
     "onprem": {
       "y": "success",
