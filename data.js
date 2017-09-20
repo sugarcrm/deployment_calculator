@@ -210,7 +210,7 @@ var data = {
     }
   },
   {
-    "question": "Do I have requirements under the GDPR?",
+    "question": "Do I have requirements under the General Data Protection Regulation (GDPR)?",
     "ondemand": {
       "y": "success",
       "n": "success"
