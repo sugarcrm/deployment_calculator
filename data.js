@@ -254,7 +254,7 @@ var data = {
       "n": "success"
     },
     "premium": {
-      "y": "success",
+      "y": "warning",
       "n": "success"
     },
     "partner": {
@@ -262,7 +262,7 @@ var data = {
       "n": "success"
     },
     "onprem": {
-      "y": "warning",
+      "y": "success",
       "n": "success"
     }
   },
