@@ -17,6 +17,7 @@ Use this tool to help you decide which deployment option is right for you.
 <table id="calctable" class="table table-bordered" width="800">
 <thhead>
 	<tr>
+		<th>#</th>
 		<th>Question</th>
 		<th>Answer</th>
 		<th>Sugar On-Demand</th>
@@ -37,7 +38,7 @@ function change(sel) {
     $("#onprem_" + sel.id).attr('class', 'alert-' + data.questions[sel.id].onprem[sel.value]);
 }
 jQuery.each(data.questions, function(i,qrow) {
-$("#calctable tr:last").after("<tr><td>" + qrow['question'] + "</td><td><select id=" + i + " onchange='change(this)'><option disabled selected value></option><option value='y'>yes</option><option value='n'>no</option></select></td><td id='ondemand_"+i+"'>&nbsp;</td><td id='premium_"+i+"'>&nbsp;</td><td id='partner_"+i+"'>&nbsp;</td><td id='onprem_"+i+"'>&nbsp;</td></tr>");
+$("#calctable tr:last").after("<tr><td>" + (i + 1) + "</td><td>" + qrow['question'] + "</td><td><select id=" + i + " onchange='change(this)'><option disabled selected value></option><option value='y'>yes</option><option value='n'>no</option></select></td><td id='ondemand_"+i+"'>&nbsp;</td><td id='premium_"+i+"'>&nbsp;</td><td id='partner_"+i+"'>&nbsp;</td><td id='onprem_"+i+"'>&nbsp;</td></tr>");
 });
 </script>
 </div>
