@@ -79,11 +79,11 @@ var data = {
   {
 	  "question": "Do I want to purchase, configure, manage and maintain my own infrastructure?",
 	  "ondemand": {
-		  "y": "danger",
+		  "y": "warning",
 		  "n": "success"
 	  },
 	  "premium": {
-		  "y": "danger",
+		  "y": "warning",
 		  "n": "success"
 	  },
 	  "partner": {
