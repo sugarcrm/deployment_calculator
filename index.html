@@ -1,46 +1,162 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<title>Sugar Deployment Options</title>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="data.js"></script>
+    <title>Sugar Deployment Options</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="data.js"></script>
+    <style>
+        body {
+            background-color: #ddd;
+        }
+        .container {
+            background-color: black;
+            padding: 0;
+        }
+        h1 {
+            color: #fff;
+            padding: 0 34px;
+        }
+        .sugar-cube {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .sugar-cube svg {
+            width: 32px;
+            height: 32px;
+            display: inline-block;
+        }
+        .sugar-cube .sc-left,
+        .sugar-cube .sc-right,
+        .sugar-cube .sc-top {
+            fill: rgb(204, 204, 204);
+            stroke-width: 0;
+        }
+        .sugar-cube .sc-top {
+            fill: rgb(228, 30, 38);
+        }
+        .sugar-cube .sc-left {
+            fill: rgb(52, 52, 51);
+        }
+        .sugar-cube .sc-right {
+            fill: rgb(206, 204, 203);
+        }
+        #reset {
+            float: right;
+            margin-top: 14px;
+        }
+        p {
+            color: #ddd;
+            padding: 0 34px;
+        }
+        #calctable {
+            background-color: #fff;
+        }
+        #calctable tr:hover {
+            background-color: #ebebeb;
+        }
+        #calctable th:first-child {
+            width: 34px;
+        }
+        #calctable th.center {
+            text-align: center;
+            white-space: nowrap;
+        }
+        #calctable td {
+            vertical-align: middle;
+        }
+        #calctable td.result {
+            width: 10%;
+        }
+        #calctable tbody td:first-child {
+            text-align: center;
+            font-weight: bold;
+        }
+        #calctable .btn-group {
+            white-space: nowrap;
+            width: 70px;
+        }
+        #calctable .btn-group .btn {
+            width: 34px;
+            padding: 6px;
+        }
+        #calctable .btn:first-child.active {
+            background-color: #cfb;
+        }
+        #calctable .btn:last-child.active {
+            background-color: #fcb;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
-<h1>Sugar Deployment Calculator</h1>
-<p>
-Use this tool to help you decide which deployment option is right for you.
-</p>
-<form id="calcform">
-<table id="calctable" class="table table-bordered" width="800">
-<thhead>
-	<tr>
-		<th>#</th>
-		<th>Question</th>
-		<th>Answer</th>
-		<th>Sugar On-Demand</th>
-		<th>Sugar Premium Cloud</th>
-		<th>Partner Hosting</th>
-		<th>On Premise</th>
-	</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-</form>
-<script type="text/javascript">
-function change(sel) {
-    $("#ondemand_" + sel.id).attr('class', 'alert-' + data.questions[sel.id].ondemand[sel.value]);
-    $("#premium_" + sel.id).attr('class', 'alert-' + data.questions[sel.id].premium[sel.value]);
-    $("#partner_" + sel.id).attr('class', 'alert-' + data.questions[sel.id].partner[sel.value]);
-    $("#onprem_" + sel.id).attr('class', 'alert-' + data.questions[sel.id].onprem[sel.value]);
-}
-jQuery.each(data.questions, function(i,qrow) {
-$("#calctable tr:last").after("<tr><td>" + (i + 1) + "</td><td>" + qrow['question'] + "</td><td><select id=" + i + " onchange='change(this)'><option disabled selected value></option><option value='y'>yes</option><option value='n'>no</option></select></td><td id='ondemand_"+i+"'>&nbsp;</td><td id='premium_"+i+"'>&nbsp;</td><td id='partner_"+i+"'>&nbsp;</td><td id='onprem_"+i+"'>&nbsp;</td></tr>");
-});
-</script>
+    <h1>
+        <span class="sugar-cube"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" enable-background="new 0 0 512 512"><g><path class="sc-top" d="M272.24,175c-10.35,4.079-27.267,4.079-37.579,0L48.178,101.127c-10.326-4.093-10.326-10.782,0-14.877 l186.483-73.841c10.312-4.097,27.229-4.097,37.579,0L458.712,86.25c10.325,4.096,10.325,10.784,0,14.877L272.24,175z"></path><path class="sc-left" d="M243.068,477.624c0,11.132-8.449,16.852-18.79,12.792L37.797,416.574 c-10.327-4.096-18.789-16.508-18.789-27.649V129.978c0-11.091,8.462-16.847,18.789-12.759l186.482,73.863 c10.34,4.074,18.79,16.518,18.79,27.646V477.624z"></path><path class="sc-right" d="M263.78,477.55c0,11.132,8.46,16.841,18.812,12.783l186.465-73.851c10.336-4.099,18.79-16.547,18.79-27.642 V129.918c0-11.119-8.454-16.885-18.79-12.784l-186.465,73.836c-10.352,4.103-18.812,16.551-18.812,27.646V477.55z"></path></g></svg></span>
+        <span>Sugar Deployment Calculator</span>
+        <button id="reset" type="button" class="btn btn-sm btn-primary">Reset</button>
+    </h1>
+    <p>Use this tool to help you decide which deployment option is right for you.</p>
+    <form id="calcform">
+        <table id="calctable" class="table table-striped table-bordered">
+            <thead>
+            	<tr>
+            		<th class="center"></th>
+            		<th>Question</th>
+            		<th class="center">Answer<br></th>
+            		<th class="center">Sugar<br>On-Demand</th>
+            		<th class="center">Sugar<br>Premium Cloud</th>
+            		<th class="center">Partner<br>Hosting</th>
+            		<th class="center">On<br>Premise</th>
+            	</tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </form>
 </div>
+
+<script type="text/javascript">
+    function change(sel) {
+        var q = data.questions[sel.id];
+        $("#ondemand_" + sel.id).attr('class', 'result alert-' + q.ondemand[sel.value]);
+        $("#premium_" + sel.id).attr('class', 'result alert-' + q.premium[sel.value]);
+        $("#partner_" + sel.id).attr('class', 'result alert-' + q.partner[sel.value]);
+        $("#onprem_" + sel.id).attr('class', 'result alert-' + q.onprem[sel.value]);
+    }
+
+    $('body').on('click', '.btn-group[data-toggle=buttons]', function(e) {
+        change({
+            id: e.currentTarget.id,
+            value: e.target.dataset.value
+        });
+    });
+
+    $('#reset').on('click', function() {
+        $('.btn-group .btn').attr('class', 'btn btn-default');
+        $('.result').attr('class', 'result');
+    });
+
+    jQuery.each(data.questions, function(i, qrow) {
+        $('#calctable tbody').append('<tr>\
+            <td>' + (i + 1) + '</td>\
+            <td class="question">' + qrow["question"] + '</td>\
+            <td class="answer">\
+                <div class="btn-group" data-toggle="buttons" role="group" aria-label="Answer the question" id=' + i + '>\
+                    <label class="btn btn-default" data-value="y">\
+                        <input type="radio" name="options" autocomplete="off"> yes\
+                    </label>\
+                    <label class="btn btn-default" data-value="n">\
+                        <input type="radio" name="options" autocomplete="off"> no\
+                    </label>\
+                </div>\
+            </td>\
+            <td class="result" id="ondemand_' + i + '">&nbsp;</td>\
+            <td class="result" id="premium_' + i + '">&nbsp;</td>\
+            <td class="result" id="partner_' + i + '">&nbsp;</td>\
+            <td class="result" id="onprem_' + i + '">&nbsp;</td>\
+        </tr>');
+    });
+</script>
 </body>
 </html>

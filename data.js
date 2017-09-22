@@ -324,7 +324,7 @@ var data = {
     }
   },
   {
-    "question": "Are all services to which Sugar must connect available via APIs accessible over the internet?",
+    "question": "Are all services to which Sugar must connect available via internet accessible APIs?",
     "ondemand": {
       "y": "success",
       "n": "danger"
