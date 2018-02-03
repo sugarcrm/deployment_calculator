@@ -2,7 +2,7 @@ var data = {
   "questions": [
   {
 	  "question": "Do I need access to the latest features on a quarterly basis as they are released?",
-	  "ondemand": {
+	  "cloud": {
 		  "y": "success",
 		  "n": "success"
 	  },
@@ -14,14 +14,14 @@ var data = {
 		  "y": "danger",
 		  "n": "success"
 	  },
-	  "onprem": {
+	  "onsite": {
 		  "y": "danger",
 		  "n": "success"
 	  }
   },
   {
 	  "question": "Do I want control over when new features are rolled out to my Sugar instance?",
-	  "ondemand": {
+	  "cloud": {
 		  "y": "danger",
 		  "n": "success"
 	  },
@@ -33,14 +33,14 @@ var data = {
 		  "y": "success",
 		  "n": "success"
 	  },
-	  "onprem": {
+	  "onsite": {
 		  "y": "success",
 		  "n": "success"
 	  }
   },
   {
     "question": "Do I require upgrades to be performed at a time of my choosing?",
-    "ondemand": {
+    "cloud": {
       "y": "warning",
       "n": "success"
     },
@@ -52,14 +52,14 @@ var data = {
       "y": "success",
       "n": "success"
     },
-    "onprem": {
+    "onsite": {
       "y": "success",
       "n": "success"
     }
   },
   {
 	  "question": "Do I want direct control over and responsibility for my own backup strategy?",
-	  "ondemand": {
+	  "cloud": {
 		  "y": "danger",
 		  "n": "success"
 	  },
@@ -71,14 +71,14 @@ var data = {
 		  "y": "warning",
 		  "n": "success"
 	  },
-	  "onprem": {
+	  "onsite": {
 		  "y": "success",
 		  "n": "danger"
 	  }
   },
   {
 	  "question": "Do I want to purchase, configure, manage and maintain my own infrastructure?",
-	  "ondemand": {
+	  "cloud": {
 		  "y": "warning",
 		  "n": "success"
 	  },
@@ -90,14 +90,14 @@ var data = {
 		  "y": "warning",
 		  "n": "success"
 	  },
-	  "onprem": {
+	  "onsite": {
 		  "y": "success",
 		  "n": "danger"
 	  }
   },
   {
     "question": "Do I want to be directly responsible for OS level patching?",
-    "ondemand": {
+    "cloud": {
       "y": "warning",
       "n": "success"
     },
@@ -109,14 +109,14 @@ var data = {
       "y": "warning",
       "n": "success"
     },
-    "onprem": {
+    "onsite": {
       "y": "success",
       "n": "danger"
     }
   },
   {
     "question": "Do I have the skills required for keeping my environment secure?",
-    "ondemand": {
+    "cloud": {
       "y": "success",
       "n": "success"
     },
@@ -128,14 +128,14 @@ var data = {
       "y": "success",
       "n": "success"
     },
-    "onprem": {
+    "onsite": {
       "y": "success",
       "n": "danger"
     }
   },
   {
     "question": "Am I comfortable managing the unix hosting environment by myself?",
-    "ondemand": {
+    "cloud": {
       "y": "success",
       "n": "success"
     },
@@ -147,14 +147,14 @@ var data = {
       "y": "success",
       "n": "success"
     },
-    "onprem": {
+    "onsite": {
       "y": "success",
       "n": "danger"
     }
   },
   {
     "question": "Do I have a database administrator on staff?",
-    "ondemand": {
+    "cloud": {
       "y": "success",
       "n": "success"
     },
@@ -166,14 +166,14 @@ var data = {
       "y": "success",
       "n": "warning"
     },
-    "onprem": {
+    "onsite": {
       "y": "success",
       "n": "danger"
     }
   },
   {
     "question": "Do I require my Sugar deployment have a disaster recovery plan in place?",
-    "ondemand": {
+    "cloud": {
       "y": "success",
       "n": "success"
     },
@@ -185,14 +185,14 @@ var data = {
       "y": "warning",
       "n": "success"
     },
-    "onprem": {
+    "onsite": {
       "y": "warning",
       "n": "success"
     }
   },
   {
     "question": "Do I want responsibility for creating, testing and executing my own disaster recovery plan?",
-    "ondemand": {
+    "cloud": {
       "y": "warning",
       "n": "success"
     },
@@ -204,14 +204,14 @@ var data = {
       "y": "warning",
       "n": "success"
     },
-    "onprem": {
+    "onsite": {
       "y": "success",
       "n": "danger"
     }
   },
   {
     "question": "Do I have requirements under the General Data Protection Regulation (GDPR)?",
-    "ondemand": {
+    "cloud": {
       "y": "success",
       "n": "success"
     },
@@ -223,14 +223,14 @@ var data = {
       "y": "warning",
       "n": "success"
     },
-    "onprem": {
+    "onsite": {
       "y": "warning",
       "n": "success"
     }
   },
   {
     "question": "Do I have specific geographic requirements for the hosting of my CRM data?",
-    "ondemand": {
+    "cloud": {
       "y": "success",
       "n": "success"
     },
@@ -242,14 +242,14 @@ var data = {
       "y": "warning",
       "n": "success"
     },
-    "onprem": {
+    "onsite": {
       "y": "success",
       "n": "success"
     }
   },
   {
     "question": "Do I require hosting in a region other than Australia, Ireland or USA?",
-    "ondemand": {
+    "cloud": {
       "y": "danger",
       "n": "success"
     },
@@ -261,14 +261,14 @@ var data = {
       "y": "warning",
       "n": "success"
     },
-    "onprem": {
+    "onsite": {
       "y": "success",
       "n": "success"
     }
   },
   {
     "question": "Do I require PCI, HIPAA or FedRamp compliant hosting?",
-    "ondemand": {
+    "cloud": {
       "y": "danger",
       "n": "success"
     },
@@ -280,14 +280,14 @@ var data = {
       "y": "warning",
       "n": "success"
     },
-    "onprem": {
+    "onsite": {
       "y": "success",
       "n": "success"
     }
   },
   {
     "question": "Do I require that my hosting environment has undergone third party security scans?",
-    "ondemand": {
+    "cloud": {
       "y": "success",
       "n": "success"
     },
@@ -299,14 +299,14 @@ var data = {
       "y": "warning",
       "n": "success"
     },
-    "onprem": {
+    "onsite": {
       "y": "warning",
       "n": "success"
     }
   },
   {
     "question": "Do I require that Sugar only be reachable from behind a VPN connection?",
-    "ondemand": {
+    "cloud": {
       "y": "danger",
       "n": "success"
     },
@@ -318,14 +318,14 @@ var data = {
       "y": "warning",
       "n": "success"
     },
-    "onprem": {
+    "onsite": {
       "y": "success",
       "n": "success"
     }
   },
   {
     "question": "Are all services to which Sugar must connect available via internet accessible APIs?",
-    "ondemand": {
+    "cloud": {
       "y": "success",
       "n": "danger"
     },
@@ -337,14 +337,14 @@ var data = {
       "y": "success",
       "n": "warning"
     },
-    "onprem": {
+    "onsite": {
       "y": "success",
       "n": "success"
     }
   },
   {
     "question": "Will my CRM traffic be higher than 20 requests per second?",
-    "ondemand": {
+    "cloud": {
       "y": "danger",
       "n": "success"
     },
@@ -356,14 +356,14 @@ var data = {
       "y": "success",
       "n": "success"
     },
-    "onprem": {
+    "onsite": {
       "y": "success",
       "n": "success"
     }
   },
   {
     "question": "Do I require more than 60 Gigabytes of data storage?",
-    "ondemand": {
+    "cloud": {
       "y": "warning",
       "n": "success"
     },
@@ -375,7 +375,7 @@ var data = {
       "y": "success",
       "n": "success"
     },
-    "onprem": {
+    "onsite": {
       "y": "success",
       "n": "success"
     }
