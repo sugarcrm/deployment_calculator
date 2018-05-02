@@ -6,6 +6,10 @@ var data = {
 		  "y": "success",
 		  "n": "success"
 	  },
+    "annual": {
+      "y": "danger",
+      "n": "success"
+    }
 	  "premium": {
 		  "y": "success",
 		  "n": "success"
@@ -25,6 +29,10 @@ var data = {
 		  "y": "danger",
 		  "n": "success"
 	  },
+    "annual": {
+      "y": "success",
+      "n": "success"
+    }
 	  "premium": {
 		  "y": "success",
 		  "n": "success"
@@ -44,6 +52,10 @@ var data = {
       "y": "warning",
       "n": "success"
     },
+    "annual": {
+      "y": "success",
+      "n": "success"
+    }
     "premium": {
       "y": "success",
       "n": "success"
@@ -63,6 +75,10 @@ var data = {
 		  "y": "danger",
 		  "n": "success"
 	  },
+    "annual": {
+      "y": "danger",
+      "n": "success"
+    }
 	  "premium": {
 		  "y": "warning",
 		  "n": "success"
@@ -82,6 +98,10 @@ var data = {
 		  "y": "warning",
 		  "n": "success"
 	  },
+    "annual": {
+      "y": "warning",
+      "n": "success"
+    }
 	  "premium": {
 		  "y": "warning",
 		  "n": "success"
@@ -101,6 +121,10 @@ var data = {
       "y": "warning",
       "n": "success"
     },
+    "annual": {
+      "y": "warning",
+      "n": "success"
+    }
     "premium": {
       "y": "warning",
       "n": "success"
@@ -120,6 +144,10 @@ var data = {
       "y": "success",
       "n": "success"
     },
+    "annual": {
+      "y": "success",
+      "n": "success"
+    }
     "premium": {
       "y": "success",
       "n": "success"
@@ -139,6 +167,10 @@ var data = {
       "y": "success",
       "n": "success"
     },
+    "annual": {
+      "y": "success",
+      "n": "success"
+    }
     "premium": {
       "y": "success",
       "n": "success"
@@ -158,6 +190,10 @@ var data = {
       "y": "success",
       "n": "success"
     },
+    "annual": {
+      "y": "success",
+      "n": "success"
+    }
     "premium": {
       "y": "success",
       "n": "success"
@@ -177,6 +213,10 @@ var data = {
       "y": "success",
       "n": "success"
     },
+    "annual": {
+      "y": "success",
+      "n": "success"
+    }
     "premium": {
       "y": "success",
       "n": "success"
@@ -196,6 +236,10 @@ var data = {
       "y": "warning",
       "n": "success"
     },
+    "annual": {
+      "y": "warning",
+      "n": "success"
+    }
     "premium": {
       "y": "warning",
       "n": "success"
@@ -215,6 +259,10 @@ var data = {
       "y": "success",
       "n": "success"
     },
+    "annual": {
+      "y": "success",
+      "n": "success"
+    }
     "premium": {
       "y": "success",
       "n": "success"
@@ -234,6 +282,10 @@ var data = {
       "y": "success",
       "n": "success"
     },
+    "annual": {
+      "y": "success",
+      "n": "success"
+    }
     "premium": {
       "y": "success",
       "n": "success"
@@ -253,6 +305,10 @@ var data = {
       "y": "danger",
       "n": "success"
     },
+    "annual": {
+      "y": "danger",
+      "n": "success"
+    }
     "premium": {
       "y": "warning",
       "n": "success"
@@ -272,6 +328,10 @@ var data = {
       "y": "danger",
       "n": "success"
     },
+    "annual": {
+      "y": "danger",
+      "n": "success"
+    }
     "premium": {
       "y": "danger",
       "n": "success"
@@ -291,6 +351,10 @@ var data = {
       "y": "success",
       "n": "success"
     },
+    "annual": {
+      "y": "success",
+      "n": "success"
+    }
     "premium": {
       "y": "success",
       "n": "success"
@@ -310,6 +374,10 @@ var data = {
       "y": "danger",
       "n": "success"
     },
+    "annual": {
+      "y": "danger",
+      "n": "success"
+    }
     "premium": {
       "y": "danger",
       "n": "success"
@@ -329,6 +397,10 @@ var data = {
       "y": "success",
       "n": "danger"
     },
+    "annual": {
+      "y": "success",
+      "n": "danger"
+    }
     "premium": {
       "y": "success",
       "n": "danger"
@@ -348,6 +420,10 @@ var data = {
       "y": "danger",
       "n": "success"
     },
+    "annual": {
+      "y": "danger",
+      "n": "success"
+    }
     "premium": {
       "y": "success",
       "n": "success"
@@ -367,6 +443,10 @@ var data = {
       "y": "warning",
       "n": "success"
     },
+    "annual": {
+      "y": "warning",
+      "n": "success"
+    }
     "premium": {
       "y": "success",
       "n": "success"
