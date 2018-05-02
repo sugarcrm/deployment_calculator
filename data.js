@@ -9,7 +9,7 @@ var data = {
     "annual": {
       "y": "danger",
       "n": "success"
-    }
+    },
 	  "premium": {
 		  "y": "success",
 		  "n": "success"
@@ -32,7 +32,7 @@ var data = {
     "annual": {
       "y": "success",
       "n": "success"
-    }
+    },
 	  "premium": {
 		  "y": "success",
 		  "n": "success"
@@ -55,7 +55,7 @@ var data = {
     "annual": {
       "y": "success",
       "n": "success"
-    }
+    },
     "premium": {
       "y": "success",
       "n": "success"
@@ -78,7 +78,7 @@ var data = {
     "annual": {
       "y": "danger",
       "n": "success"
-    }
+    },
 	  "premium": {
 		  "y": "warning",
 		  "n": "success"
@@ -101,7 +101,7 @@ var data = {
     "annual": {
       "y": "warning",
       "n": "success"
-    }
+    },
 	  "premium": {
 		  "y": "warning",
 		  "n": "success"
@@ -124,7 +124,7 @@ var data = {
     "annual": {
       "y": "warning",
       "n": "success"
-    }
+    },
     "premium": {
       "y": "warning",
       "n": "success"
@@ -147,7 +147,7 @@ var data = {
     "annual": {
       "y": "success",
       "n": "success"
-    }
+    },
     "premium": {
       "y": "success",
       "n": "success"
@@ -170,7 +170,7 @@ var data = {
     "annual": {
       "y": "success",
       "n": "success"
-    }
+    },
     "premium": {
       "y": "success",
       "n": "success"
@@ -193,7 +193,7 @@ var data = {
     "annual": {
       "y": "success",
       "n": "success"
-    }
+    },
     "premium": {
       "y": "success",
       "n": "success"
@@ -216,7 +216,7 @@ var data = {
     "annual": {
       "y": "success",
       "n": "success"
-    }
+    },
     "premium": {
       "y": "success",
       "n": "success"
@@ -239,7 +239,7 @@ var data = {
     "annual": {
       "y": "warning",
       "n": "success"
-    }
+    },
     "premium": {
       "y": "warning",
       "n": "success"
@@ -262,7 +262,7 @@ var data = {
     "annual": {
       "y": "success",
       "n": "success"
-    }
+    },
     "premium": {
       "y": "success",
       "n": "success"
@@ -285,7 +285,7 @@ var data = {
     "annual": {
       "y": "success",
       "n": "success"
-    }
+    },
     "premium": {
       "y": "success",
       "n": "success"
@@ -308,7 +308,7 @@ var data = {
     "annual": {
       "y": "danger",
       "n": "success"
-    }
+    },
     "premium": {
       "y": "warning",
       "n": "success"
@@ -331,7 +331,7 @@ var data = {
     "annual": {
       "y": "danger",
       "n": "success"
-    }
+    },
     "premium": {
       "y": "danger",
       "n": "success"
@@ -354,7 +354,7 @@ var data = {
     "annual": {
       "y": "success",
       "n": "success"
-    }
+    },
     "premium": {
       "y": "success",
       "n": "success"
@@ -377,7 +377,7 @@ var data = {
     "annual": {
       "y": "danger",
       "n": "success"
-    }
+    },
     "premium": {
       "y": "danger",
       "n": "success"
@@ -400,7 +400,7 @@ var data = {
     "annual": {
       "y": "success",
       "n": "danger"
-    }
+    },
     "premium": {
       "y": "success",
       "n": "danger"
@@ -423,7 +423,7 @@ var data = {
     "annual": {
       "y": "danger",
       "n": "success"
-    }
+    },
     "premium": {
       "y": "success",
       "n": "success"
@@ -446,7 +446,7 @@ var data = {
     "annual": {
       "y": "warning",
       "n": "success"
-    }
+    },
     "premium": {
       "y": "success",
       "n": "success"
