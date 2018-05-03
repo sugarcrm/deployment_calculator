@@ -6,6 +6,10 @@ var data = {
 		  "y": "success",
 		  "n": "success"
 	  },
+    "annual": {
+      "y": "danger",
+      "n": "success"
+    },
 	  "premium": {
 		  "y": "success",
 		  "n": "success"
@@ -25,6 +29,10 @@ var data = {
 		  "y": "danger",
 		  "n": "success"
 	  },
+    "annual": {
+      "y": "success",
+      "n": "success"
+    },
 	  "premium": {
 		  "y": "success",
 		  "n": "success"
@@ -42,6 +50,10 @@ var data = {
     "question": "Do I require upgrades to be performed at a time of my choosing?",
     "cloud": {
       "y": "warning",
+      "n": "success"
+    },
+    "annual": {
+      "y": "success",
       "n": "success"
     },
     "premium": {
@@ -63,6 +75,10 @@ var data = {
 		  "y": "danger",
 		  "n": "success"
 	  },
+    "annual": {
+      "y": "danger",
+      "n": "success"
+    },
 	  "premium": {
 		  "y": "warning",
 		  "n": "success"
@@ -82,6 +98,10 @@ var data = {
 		  "y": "warning",
 		  "n": "success"
 	  },
+    "annual": {
+      "y": "warning",
+      "n": "success"
+    },
 	  "premium": {
 		  "y": "warning",
 		  "n": "success"
@@ -98,6 +118,10 @@ var data = {
   {
     "question": "Do I want to be directly responsible for OS level patching?",
     "cloud": {
+      "y": "warning",
+      "n": "success"
+    },
+    "annual": {
       "y": "warning",
       "n": "success"
     },
@@ -120,6 +144,10 @@ var data = {
       "y": "success",
       "n": "success"
     },
+    "annual": {
+      "y": "success",
+      "n": "success"
+    },
     "premium": {
       "y": "success",
       "n": "success"
@@ -136,6 +164,10 @@ var data = {
   {
     "question": "Am I comfortable managing the unix hosting environment by myself?",
     "cloud": {
+      "y": "success",
+      "n": "success"
+    },
+    "annual": {
       "y": "success",
       "n": "success"
     },
@@ -158,6 +190,10 @@ var data = {
       "y": "success",
       "n": "success"
     },
+    "annual": {
+      "y": "success",
+      "n": "success"
+    },
     "premium": {
       "y": "success",
       "n": "success"
@@ -174,6 +210,10 @@ var data = {
   {
     "question": "Do I require my Sugar deployment have a disaster recovery plan in place?",
     "cloud": {
+      "y": "success",
+      "n": "success"
+    },
+    "annual": {
       "y": "success",
       "n": "success"
     },
@@ -196,6 +236,10 @@ var data = {
       "y": "warning",
       "n": "success"
     },
+    "annual": {
+      "y": "warning",
+      "n": "success"
+    },
     "premium": {
       "y": "warning",
       "n": "success"
@@ -212,6 +256,10 @@ var data = {
   {
     "question": "Do I have requirements under the General Data Protection Regulation (GDPR)?",
     "cloud": {
+      "y": "success",
+      "n": "success"
+    },
+    "annual": {
       "y": "success",
       "n": "success"
     },
@@ -234,6 +282,10 @@ var data = {
       "y": "success",
       "n": "success"
     },
+    "annual": {
+      "y": "success",
+      "n": "success"
+    },
     "premium": {
       "y": "success",
       "n": "success"
@@ -250,6 +302,10 @@ var data = {
   {
     "question": "Do I require hosting in a region other than Australia, Ireland or USA?",
     "cloud": {
+      "y": "danger",
+      "n": "success"
+    },
+    "annual": {
       "y": "danger",
       "n": "success"
     },
@@ -272,6 +328,10 @@ var data = {
       "y": "danger",
       "n": "success"
     },
+    "annual": {
+      "y": "danger",
+      "n": "success"
+    },
     "premium": {
       "y": "danger",
       "n": "success"
@@ -288,6 +348,10 @@ var data = {
   {
     "question": "Do I require that my hosting environment has undergone third party security scans?",
     "cloud": {
+      "y": "success",
+      "n": "success"
+    },
+    "annual": {
       "y": "success",
       "n": "success"
     },
@@ -310,6 +374,10 @@ var data = {
       "y": "danger",
       "n": "success"
     },
+    "annual": {
+      "y": "danger",
+      "n": "success"
+    },
     "premium": {
       "y": "danger",
       "n": "success"
@@ -326,6 +394,10 @@ var data = {
   {
     "question": "Are all services to which Sugar must connect available via internet accessible APIs?",
     "cloud": {
+      "y": "success",
+      "n": "danger"
+    },
+    "annual": {
       "y": "success",
       "n": "danger"
     },
@@ -348,6 +420,10 @@ var data = {
       "y": "danger",
       "n": "success"
     },
+    "annual": {
+      "y": "danger",
+      "n": "success"
+    },
     "premium": {
       "y": "success",
       "n": "success"
@@ -364,6 +440,10 @@ var data = {
   {
     "question": "Do I require more than 60 Gigabytes of data storage?",
     "cloud": {
+      "y": "warning",
+      "n": "success"
+    },
+    "annual": {
       "y": "warning",
       "n": "success"
     },

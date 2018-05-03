@@ -104,7 +104,8 @@
             		<th class="center"></th>
             		<th>Question</th>
             		<th class="center">Answer<br></th>
-            		<th class="center">Sugar<br>Cloud</th>
+            		<th class="center">Sugar Cloud -<br>Seasonal</th>
+                    <th class="center">Sugar Cloud -<br>Annual</th>
             		<th class="center">Sugar<br>Premium Cloud</th>
             		<th class="center">Partner Hosting</th>
             		<th class="center">On-Site</th>
@@ -120,6 +121,7 @@
     function change(sel) {
         var q = data.questions[sel.id];
         $("#cloud_" + sel.id).attr('class', 'result alert-' + q.cloud[sel.value]);
+        $("#annual_" + sel.id).attr('class', 'result alert-' + q.cloud[selvalue]);
         $("#premium_" + sel.id).attr('class', 'result alert-' + q.premium[sel.value]);
         $("#partner_" + sel.id).attr('class', 'result alert-' + q.partner[sel.value]);
         $("#onsite_" + sel.id).attr('class', 'result alert-' + q.onsite[sel.value]);
@@ -152,6 +154,7 @@
                 </div>\
             </td>\
             <td class="result" id="cloud_' + i + '">&nbsp;</td>\
+            <td class="result" id="annual_' + i + '">&nbsp;</td>\
             <td class="result" id="premium_' + i + '">&nbsp;</td>\
             <td class="result" id="partner_' + i + '">&nbsp;</td>\
             <td class="result" id="onsite_' + i + '">&nbsp;</td>\
