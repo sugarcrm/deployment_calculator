@@ -121,7 +121,7 @@
     function change(sel) {
         var q = data.questions[sel.id];
         $("#cloud_" + sel.id).attr('class', 'result alert-' + q.cloud[sel.value]);
-        $("#annual_" + sel.id).attr('class', 'result alert-' + q.cloud[selvalue]);
+        $("#annual_" + sel.id).attr('class', 'result alert-' + q.cloud[sel.value]);
         $("#premium_" + sel.id).attr('class', 'result alert-' + q.premium[sel.value]);
         $("#partner_" + sel.id).attr('class', 'result alert-' + q.partner[sel.value]);
         $("#onsite_" + sel.id).attr('class', 'result alert-' + q.onsite[sel.value]);
